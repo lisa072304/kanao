@@ -2,12 +2,29 @@
 
 
 body{
-    background-color: rgb(243, 152, 220);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 html,body{
     margin: 0;
     padding: 0;
+}
+
+p, ul, ol{
+    font-size: 20px;
+}
+
+a, a:visited {
+    color: rgb(230, 62, 62);
+}
+
+a:hover {
+    color: rgb(62, 87, 230);
+}
+
+a:active{
+     color: rgb(154, 62, 230);
 }
 
 
@@ -32,12 +49,33 @@ header .pfp{
     margin: 0 auto;
 }
 
-header h1{
+h1{
     font-family: "Ultra", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 65px;
-    margin: 10px 0 20px 0;
-    color: rgb(236 205 255);
-    text-decoration: black;
+  margin: 10px 0 20px 0;
+  color: rgb(236 205 255);
+  -webkit-text-stroke: 4px black; /*border on font */
+}
+
+h2{
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin: 20px 0;
+  text-align: center;
+ -webkit-text-stroke: 1px rgb(236 205 255);
+
+}
+main{
+    width: 800px;
+    margin: 0 auto;
+}
+
+main img{
+    max-width: 40%;
+    margin: 0px 30%;
+    
 }
