@@ -20,11 +20,16 @@ header{
     background-size: 100%; /* for stretch*/
 }
 
-header img{
+header .pfp{
     width: 300px;
     height: 300px;
     border: 3px solid rgb(28, 28, 29);
     border-radius: 50%;
+    background-image: url('./../img/kanao-pfp.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 header h1{
