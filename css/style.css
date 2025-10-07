@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+
 body{
-    background-color: goldenrod;
+    background-color: rgb(243, 152, 220);
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-image: url('../img/kanao-bg.jpeg');
+    background-repeat: no-repeat; /* for a single image */
+    background-position: center;
+    background-size: 100%; /* for stretch*/
+}
+
+header img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(28, 28, 29);
+    border-radius: 50%;
+}
+
+header h1{
+    font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px;
+    margin: 10px 0 20px 0;
+    color: rgb(236 205 255);
+    text-decoration: black;
 }
